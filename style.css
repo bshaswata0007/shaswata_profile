@@ -1,0 +1,33 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+.head{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;   /* left to right */;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+
+/*footer*/
+.contact{
+    background-color: black  ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   /* top to bottom */
+    align-items: center;
+}
+.contactItem{
+    display: flex;
+    flex-direction: row;     
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    width: 100%;
+}
