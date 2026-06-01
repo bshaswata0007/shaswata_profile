@@ -390,3 +390,44 @@ body{
     font-size: 20px;
     color: yellow;
 }
+
+@media (max-width: 768px){
+
+    .contactContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contactBox{
+        width: 90%;
+        text-align: center;
+    }
+
+    .contactBox p{
+        font-size: 18px;
+        word-wrap: break-word;
+    }
+
+    .contactAni{
+        font-size: 120px;
+        opacity: 0.1;
+    }
+
+    .contactHeading{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .queryBtn{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .socialIcons{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
