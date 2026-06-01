@@ -1,3 +1,4 @@
+/* ================================================================================= */
 /* Universal Reset */
 *{
     margin:0;
@@ -36,8 +37,7 @@ section{
         display:none;
     }
 }
-
-/* ------------------------------------------------------------------- */
+/* ================================================================================ */
 /* nav bar */
 *{
     margin: 0;
@@ -46,10 +46,13 @@ section{
 }
 
 body{
-    background: #b4b5b8;
+    background: #0F172A;
     font-family: sans-serif;
 }
 
+h2{
+    color: #F8FAFC;
+}
 /* NAVBAR */
 .navbar{
     width: 100%;
@@ -63,8 +66,8 @@ body{
 /* LEFT */
 .logo{
     color: white;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 /* RIGHT */
@@ -137,15 +140,8 @@ body{
     }
 }
 
+/* ================================================================== */
 /* Card Style */
-
-.head_list{
-    padding:20px;
-    border-radius: 10px;
-    background: skyblue;
-}
-
-/* -------------------------------------------------------------------- */
 
 .cards{
     display: flex;
@@ -166,23 +162,6 @@ body{
 .card{
     padding:20px;
     border-radius: 10px;
-    background: skyblue;
+    background:#1E293B;
 }
 /* ---------------------------------------- */
-.head{
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.logo{
-    font-size: 35px;
-    font-weight: bolder;
-}
-
-.menuIcon{
-    font-size: 30px;
-    cursor: pointer;
-}
