@@ -1,0 +1,188 @@
+/* Universal Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container{
+    width:90%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+/* Section Spacing */
+section{
+    padding:60px 0;
+}
+
+/* Cards Layout (Desktop) */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* Mobile Responsive */
+
+@media (max-width:768px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:768px){
+    .navLinks{
+        display:none;
+    }
+}
+
+/* ------------------------------------------------------------------- */
+/* nav bar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #b4b5b8;
+    font-family: sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    width: 100%;
+    padding: 20px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LEFT */
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* RIGHT */
+.navRight{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+/* MENU */
+.navLinks{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.navLinks a:hover{
+    color: #38bdf8;
+}
+
+/* ICONS */
+.navIcons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navIcons i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navIcons i:hover{
+    color: #38bdf8;
+}
+/* ----------------------------------- */
+.head{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* Mobile Responsive */
+
+@media (max-width:768px){
+    .head{
+        grid-template-columns: 1fr;
+    }
+}
+
+.head{
+    display: flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+    .head{
+        flex-direction: column;
+    }
+}
+
+/* Card Style */
+
+.head_list{
+    padding:20px;
+    border-radius: 10px;
+    background: skyblue;
+}
+
+/* -------------------------------------------------------------------- */
+
+.cards{
+    display: flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+    .cards{
+        flex-direction: column;
+    }
+}
+
+/* Card Style */
+
+.card{
+    padding:20px;
+    border-radius: 10px;
+    background: skyblue;
+}
+/* ---------------------------------------- */
+.head{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.menuIcon{
+    font-size: 30px;
+    cursor: pointer;
+}
