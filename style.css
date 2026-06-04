@@ -189,7 +189,6 @@ header{
 }
 
 /* ================================================================================= */
-/* ================================================================================= */
 /* BUTTON GROUP */
 .cvButton{
     display: flex;
@@ -416,3 +415,231 @@ header{
     }
 }
 /* ================================================================================= */
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/* CONTACT SECTION */
+
+.contactSection{
+    display: flex;
+    gap: 40px;
+
+    margin-top: 40px;
+}
+
+/* ================================================================================= */
+/* LEFT SIDE */
+
+.contactInfo{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+/* CONTACT CARD */
+
+.contactCard{
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 25px;
+
+    background: var(--card-color);
+
+    border: 1px solid var(--border-color);
+
+    border-radius: 16px;
+
+    transition: 0.3s;
+}
+
+.contactCard:hover{
+    transform: translateY(-5px);
+
+    border-color: var(--primary-color);
+}
+
+/* ICON */
+
+.contactCard i{
+    font-size: 28px;
+
+    color: var(--primary-color);
+}
+
+/* TEXT */
+
+.contactCard h3{
+    margin-bottom: 5px;
+
+    color: var(--text-color);
+}
+
+.contactCard p{
+    color: var(--secondary-text);
+}
+
+/* ================================================================================= */
+/* RIGHT SIDE */
+
+.contactForm{
+    flex: 1;
+}
+
+/* FORM */
+
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+/* INPUT */
+
+.contactForm input,
+.contactForm textarea{
+
+    width: 100%;
+
+    padding: 16px;
+
+    border: 1px solid var(--border-color);
+
+    border-radius: 12px;
+
+    background: var(--card-color);
+
+    color: var(--text-color);
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+/* TEXTAREA */
+
+.contactForm textarea{
+    height: 150px;
+
+    resize: none;
+}
+
+/* BUTTON */
+
+.contactForm button{
+    padding: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: var(--primary-color);
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.contactForm button:hover{
+    background: var(--hover-color);
+
+    transform: translateY(-3px);
+}
+
+/* ================================================================================= */
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .contactSection{
+        flex-direction: column;
+    }
+
+}
+
+/* ================================================================================= */
+/* SOCIAL SECTION */
+
+.socialSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* TITLE */
+
+.socialSection h3{
+    font-size: 28px;
+
+    color: var(--text-color);
+
+    margin-bottom: 25px;
+}
+
+/* ICON GROUP */
+
+.socialIcons{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+/* ICON */
+
+.socialIcons a{
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--card-color);
+
+    border: 1px solid var(--border-color);
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+/* ICON STYLE */
+
+.socialIcons i{
+    font-size: 26px;
+
+    color: var(--primary-color);
+}
+
+/* HOVER */
+
+.socialIcons a:hover{
+    transform: translateY(-5px);
+
+    border-color: var(--primary-color);
+
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.2);
+}
+
