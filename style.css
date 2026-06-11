@@ -164,6 +164,7 @@ header{
     width:380px;
     height:380px;
     object-fit:cover;
+    object-position: top;
     border-radius:50%;
     border:5px solid var(--primary-color);
     animation:floatImage 4s ease-in-out infinite;
