@@ -1,399 +1,495 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaswata Biswas</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <script src="portfolio.js"></script>
 </head>
 
 <body>
-    <!-- ===================== HEADER ============================ -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                Shaswata Biswas
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            Shaswata Biswas
+        </div>
+
+        <div class="navRight">
+            <ul class="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="navIcons">
+                <i class="fa-regular fa-moon" id="themeToggle"></i>
+                <i class="fa-solid fa-ellipsis-vertical" id="menuToggle"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="home">
+    <div class="container">
+        <div class="homeSection">
+            <div class="homeText">
+                <h1>
+                    Hi, I'm
+                    <br>
+                    Shaswata Biswas
+                </h1>
+
+                <h3 id="typingText">
+                    GIS & Remote Sensing Specialist
+                </h3>
+
+                <p>
+                    GIS and Remote Sensing professional with 2+ years of experience in spatial analysis, mapping, and remote sensing. Passionate about working with geospatial data and building smart mapping solutions.
+                </p>
+
+                <div class="cvButton">
+                    <a href="########################################" target="_blank">
+                        <button>
+                            Download CV
+                        </button>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/shaswata-biswas-b91a52253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <button class="linkedinBtn">
+                            <i class="fa-brands fa-linkedin"></i>
+                            LinkedIn
+                        </button>
+                    </a>
+                </div>
             </div>
 
-            <div class="navRight">
-                <ul class="navLinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                
-                <div class="navIcons">
-                    <i class="fa-regular fa-moon"></i>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
+            <div class="homeImage">
+                <img src="Photo/shaswata.jpeg" alt="Profile">
             </div>
-        </nav>
-    </header>
-    <!-- ===================== HOME ============================ -->
-    <section id="home">
-        <div class="container">
-            <div class="homeSection">
-                <div class="homeText">
-                    <h1>
-                        Hi, I'm
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+
+        <div class="aboutSection">
+            <div class="aboutText">
+                <h3>GIS & Remote Sensing Professional</h3>
+
+                <p>
+                    I am Shaswata Biswas, a GIS and Remote Sensing professional with 2+ years of experience in geospatial analysis, mapping, remote sensing, and spatial data processing.
+                    I work with GIS technologies, drone data, and spatial analysis techniques to create accurate and meaningful geospatial solutions.
+                </p>
+            </div>
+
+            <div class="aboutCards">
+                <div class="aboutCard">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Experience</h3>
+                    <p>
+                        2+ Years
                         <br>
-                        Shaswata Biswas
-                    </h1>
-                    <h3>
-                        GIS & Remote Sensing Specialist
-                    </h3>
-                    <p>
-                        GIS and Remote Sensing professional with 2+ years of experience in spatial analysis, mapping, and remote sensing. Passionate about working with geospatial data and building smart mapping solutions.
+                        Professional Experience
                     </p>
-                    <div class="cvButton">
-                        <a href="########################################" target="_blank">
-                            <button>
-                                Download CV
-                            </button>
-                        </a>
-                        <a href="https://www.linkedin.com/in/shaswata-biswas-b91a52253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                            <button class="linkedinBtn">
-                                <i class="fa-brands fa-linkedin"></i>
-                                LinkedIn
-                            </button>
-                        </a>
-                    </div>
                 </div>
-                <div class="homeImage">
-                    <img src="Photo/shaswata.jpeg" alt="Profile">
+
+                <div class="aboutCard">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Education</h3>
+                    <p>M.Sc. Geo-Informatics</p>
+                </div>
+
+                <div class="aboutCard">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Specialization</h3>
+                    <p>
+                        GIS
+                        <br>
+                        Remote Sensing
+                        <br>
+                        UAV
+                    </p>
+                </div>
+
+                <div class="aboutCard">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Tools</h3>
+                    <p>
+                        ArcGIS Pro
+                        <br>
+                        QGIS
+                        <br>
+                        Python
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ======================= ABOUT ========================== -->
-    <section id="about">
-        <div class="container">
-            <h2>
-                About Me
-            </h2>
-            <div class="aboutSection">
-                <div class="aboutText">
-                    <h3>
-                        GIS & Remote Sensing Professional
-                    </h3>
-                    <p>
-                        I am Shaswata Biswas, a GIS and Remote Sensing professional with 2+ years of experience in geospatial analysis, mapping, remote sensing, and spatial data processing.
-                        I work with GIS technologies, drone data, and spatial analysis techniques to create accurate and meaningful geospatial solutions.
-                    </p>
-                </div>
-                <div class="aboutCards">
-                    <div class="aboutCard">
-                        <i class="fa-solid fa-briefcase"></i>
-                        <h3>
-                            Experience
-                        </h3>
-                        <p>
-                            2+ Years
-                            <br>
-                            Professional Experience
-                        </p>
-                    </div>
-                    <div class="aboutCard">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                        <h3>
-                            Education
-                        </h3>
-                        <p>
-                            M.Sc. Geo-Informatics
-                        </p>
-                    </div>
-                    <div class="aboutCard">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h3>
-                            Specialization
-                        </h3>
-                        <p>
-                            GIS
-                            <br>
-                            Remote Sensing
-                            <br>
-                            UAV
-                        </p>
-                    </div>
-                    <div class="aboutCard">
-                        <i class="fa-solid fa-code"></i>
-                        <h3>
-                            Tools
-                        </h3>
-                        <p>
-                            ArcGIS Pro
-                            <br>
-                            QGIS
-                            <br>
-                            Python
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ===================== EXPERIENCE ============================ -->
-    <section id="experience">
-        <div class="container">
-            <h2>
-                Work Experience
-            </h2>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+
+        <h2>Work Experience</h2>
+
+        <p class="sectionSubTitle">
+            Professional journey and key geospatial projects
+        </p>
+
+        <div class="timeline">
+
             <div class="experienceCard">
+
+                <div class="timelineIcon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+
                 <span class="expDate">
                     February 2024 - Present
                 </span>
-                <h3>
-                    Project Fellow
-                </h3>
-                <h4>
-                    HARSAC, Hisar Haryana
-                </h4>
+
+                <h3>Project Fellow</h3>
+
+                <h4>HARSAC, Hisar Haryana</h4>
+
                 <div class="expTags">
                     <span>GIS</span>
                     <span>Remote Sensing</span>
                     <span>UAV</span>
                     <span>Spatial Analysis</span>
                 </div>
-                <ul>
-                    <li>
+
+                <div class="expList">
+                    <div>
+                        <i class="fa-solid fa-layer-group"></i>
                         Spatial data analysis and GIS database management
-                    </li>
-                    <li>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-satellite"></i>
                         Remote sensing image processing
-                    </li>
-                    <li>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-drone"></i>
                         Drone data processing
-                    </li>
-                    <li>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-map"></i>
                         Thematic map preparation
-                    </li>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="experienceCard">
+
+                <div class="timelineIcon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+
+                <span class="expDate">
+                    January 2023 - January 2024
+                </span>
+
+                <h3>GIS Trainee</h3>
+
+                <h4>HARSAC, Hisar Haryana</h4>
+
+                <div class="expTags">
+                    <span>ArcGIS</span>
+                    <span>QGIS</span>
+                    <span>Mapping</span>
+                    <span>Data Editing</span>
+                </div>
+
+                <div class="expList">
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        Spatial data collection and management
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-pen"></i>
+                        Digitization and map preparation
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-chart-line"></i>
+                        GIS analysis and reporting
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-file"></i>
+                        Project documentation support
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+
+    <div class="container">
+
+        <h2>My Skills</h2>
+
+        <div class="skillGrid">
+
+            <div class="skillCard">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                <h3>Technical Skills</h3>
+
+                <ul>
+                    <li>GIS Analysis</li>
+                    <li>Remote Sensing</li>
+                    <li>Drone Mapping</li>
+                    <li>Photogrammetry</li>
+                    <li>Web GIS</li>
                 </ul>
             </div>
-        </div>
-    </section>
-    <!-- ====================== SKILLS =========================== -->
-    <section id="skills">
-        <div class="container">
-            <h2>
-                My Skills
-            </h2>
-            <div class="cards">
-                <div class="card">
-                    <h2>
-                        Technical Skills
-                    </h2>
-                    <ul>
-                        <li>GIS Analysis</li>
-                        <li>Remote Sensing</li>
-                        <li>Drone Mapping</li>
-                        <li>Photogrammetry</li>
-                        <li>Web GIS</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h2>
-                        Software Skills
-                    </h2>
-                    <ul>
-                        <li>ArcGIS Pro</li>
-                        <li>QGIS</li>
-                        <li>ERDAS</li>
-                        <li>Agisoft</li>
-                        <li>Google Earth Engine</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h2>
-                        Professional Skills
-                    </h2>
-                    <ul>
-                        <li>Team Work</li>
-                        <li>Problem Solving</li>
-                        <li>Research</li>
-                        <li>Communication</li>
-                    </ul>
-                </div>
+
+            <div class="skillCard">
+                <i class="fa-solid fa-laptop-code"></i>
+
+                <h3>Software Skills</h3>
+
+                <ul>
+                    <li>ArcGIS Pro</li>
+                    <li>QGIS</li>
+                    <li>ERDAS</li>
+                    <li>Agisoft</li>
+                    <li>Google Earth Engine</li>
+                </ul>
             </div>
-        </div>
-    </section>
-    <!-- ===================== EDUCATION ============================ -->
-    <section id="education">
-        <div class="container">
-            <h2>
-                Education
-            </h2>
-            <div class="cards">
-                <div class="card">
-                    <h2>
-                        M.Sc. Geo-Informatics
-                    </h2>
-                    <p>
-                        Bankura University
-                    </p>
-                    <p>
-                        2021 - 2023
-                    </p>
-                </div>
-                <div class="card">
-                    <h2>
-                        BA Geography
-                    </h2>
-                    <p>
-                        University of Burdwan
-                    </p>
-                    <p>
-                        2018 - 2021
-                    </p>
-                </div>
+
+            <div class="skillCard">
+                <i class="fa-solid fa-user-tie"></i>
+
+                <h3>Professional Skills</h3>
+
+                <ul>
+                    <li>Team Work</li>
+                    <li>Problem Solving</li>
+                    <li>Research</li>
+                    <li>Communication</li>
+                </ul>
             </div>
+
         </div>
-    </section>
-    <section id="project">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projectGrid">
-                <div class="projectCard">
-                    <h3>
-                        Urban Growth Modelling
-                    </h3>
-                    <p>
-                        Future projection and land use change analysis
-                        of Siliguri Municipality using GIS and Remote
-                        Sensing techniques.
-                    </p>
-                    <div class="projectTags">
-                        <span>ArcGIS Pro</span>
-                        <span>Remote Sensing</span>
-                        <span>GIS</span>
-                    </div>
-                    <a href="#">View Project →</a>
-                </div>
-                <div class="projectCard">
-                    <h3>
-                        Drone Data Processing
-                    </h3>
-                    <p>
-                        Processing UAV data, generating orthomosaic,
-                        DSM and terrain analysis products.
-                    </p>
-                    <div class="projectTags">
-                        <span>Agisoft</span>
-                        <span>UAV</span>
-                        <span>GIS</span>
-                    </div>
-                    <a href="#">View Project →</a>
-                </div>
-                <div class="projectCard">
-                    <h3>
-                        Spatial Analysis Project
-                    </h3>
-                    <p>
-                        Geospatial analysis, thematic mapping and
-                        decision support solutions.
-                    </p>
-                    <div class="projectTags">
-                        <span>QGIS</span>
-                        <span>Python</span>
-                        <span>Mapping</span>
-                    </div>
-                    <a href="#">View Project →</a>
-                </div>
+
+        <h2 class="eduTitle">Education</h2>
+
+        <div class="educationGrid">
+
+            <div class="educationCard">
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <h3>M.Sc. Geo-Informatics</h3>
+
+                <p>
+                    Bankura University<br>
+                    2021 - 2023
+                </p>
             </div>
+
+            <div class="educationCard">
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <h3>BA Geography</h3>
+
+                <p>
+                    University of Burdwan<br>
+                    2018 - 2021
+                </p>
+            </div>
+
         </div>
-    </section>
-    
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <div class="contactSection">
-                <!-- LEFT SIDE -->
-                <div class="contactInfo">
-                    <div class="contactCard">
-                        <i class="fa-solid fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <a href="mailto:bshaswata0007@gmail.com">
-                                <p>bshaswata0007@gmail.com</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="contactCard">
-                        <i class="fa-solid fa-phone"></i>
-                        <div>
-                            <h3>Phone</h3>
-                            <a href="tel: +919134692963">
-                                <p>+91 91346 92963</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="contactCard">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                            <h3>Location</h3>
-                            <p>West Bengal, India</p>
-                        </div>
+
+    </div>
+
+</section>
+
+<section id="project">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <div class="projectGrid">
+
+            <div class="projectCard">
+                <h3>Urban Growth Modelling</h3>
+
+                <p>
+                    Future projection and land use change analysis
+                    of Siliguri Municipality using GIS and Remote
+                    Sensing techniques.
+                </p>
+
+                <div class="projectTags">
+                    <span>ArcGIS Pro</span>
+                    <span>Remote Sensing</span>
+                    <span>GIS</span>
+                </div>
+
+                <a href="#">View Project →</a>
+            </div>
+
+            <div class="projectCard">
+                <h3>Drone Data Processing</h3>
+
+                <p>
+                    Processing UAV data, generating orthomosaic,
+                    DSM and terrain analysis products.
+                </p>
+
+                <div class="projectTags">
+                    <span>Agisoft</span>
+                    <span>UAV</span>
+                    <span>GIS</span>
+                </div>
+
+                <a href="#">View Project →</a>
+            </div>
+
+            <div class="projectCard">
+                <h3>Spatial Analysis Project</h3>
+
+                <p>
+                    Geospatial analysis, thematic mapping and
+                    decision support solutions.
+                </p>
+
+                <div class="projectTags">
+                    <span>QGIS</span>
+                    <span>Python</span>
+                    <span>Mapping</span>
+                </div>
+
+                <a href="#">View Project →</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+
+        <h2>Contact Me</h2>
+
+        <div class="contactSection">
+
+            <div class="contactInfo">
+
+                <div class="contactCard">
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:bshaswata0007@gmail.com">
+                            <p>bshaswata0007@gmail.com</p>
+                        </a>
                     </div>
                 </div>
-                <!-- RIGHT SIDE -->
-                <div class="contactForm">
-                    <form action="https://formspree.io/f/mrevyyyz" method="POST">
-                        <input 
-                        type="text" 
+
+                <div class="contactCard">
+                    <i class="fa-solid fa-phone"></i>
+
+                    <div>
+                        <h3>Phone</h3>
+                        <a href="tel:+919134692963">
+                            <p>+91 91346 92963</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contactCard">
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+                        <h3>Location</h3>
+                        <p>West Bengal, India</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contactForm">
+                <form action="https://formspree.io/f/mrevyyyz" method="POST">
+
+                    <input
+                        type="text"
                         name="name"
                         placeholder="Your Name"
                         required>
-                        
-                        <input
+
+                    <input
                         type="email"
                         name="email"
                         placeholder="Your Email"
                         required>
-                        
-                        <textarea 
+
+                    <textarea
                         name="message"
                         placeholder="Your Message"
                         required></textarea>
-                        
-                        <button type="submit">
-                            Send Message
-                        </button>
-                    </form>
-                </div>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
             </div>
-        </div>
-    </section>
-    
-    <!-- CONNECT WITH ME -->
-    <div class="socialSection">
-        <h3>Connect With Me</h3>
-        <div class="socialIcons">
-            <!-- LINKEDIN -->
-            <a href="https://www.linkedin.com/in/shaswata-biswas-b91a52253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <!-- GMAIL -->
-            <a href="mailto:bshaswata0007@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-            
-            <!-- GITHUB -->
-            <a href="https://github.com/bshaswata0007" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            
-            <!-- WHATSAPP -->
-            <a href="https://wa.me/91 91346 92963" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
+
         </div>
     </div>
-    <div class="credit"> This template is made with <i class="fa-regular fa-heart" style="color: rgb(255, 0, 0);"></i> by Shaswata</div>
+</section>
+
+<div class="socialSection">
+
+    <h3>Connect With Me</h3>
+
+    <div class="socialIcons">
+
+        <a href="https://www.linkedin.com/in/shaswata-biswas-b91a52253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:bshaswata0007@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://github.com/bshaswata0007" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://wa.me/919134692963" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="credit">
+    © 2026 Shaswata Biswas | GIS & Remote Sensing Professional
+</div>
+
+<script src="portfolio.js"></script>
 
 </body>
 </html>
