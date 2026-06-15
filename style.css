@@ -701,6 +701,14 @@ body.light .expDate{
     background:#E0F2FE;
 }
 
+body.light .expTags span{
+    background:#E0F2FE;
+}
+
+body.light .projectTags span{
+    background:#E0F2FE;
+}
+
 /* ================= MOBILE ================= */
 
 @media(max-width:768px){
