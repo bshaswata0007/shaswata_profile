@@ -62,3 +62,49 @@ if (menuBtn && navLinks) {
         navLinks.classList.toggle("showMenu");
     });
 }
+
+//=====================================
+//=====================================
+
+<script>
+const texts = [
+    "GIS & Remote Sensing Specialist",
+    "UAV Mapping Specialist",
+    "LiDAR Data Analyst",
+    "Geospatial Data Analyst",
+    "Spatial Data Analyst",
+    "Urban Growth Modelling Researcher"
+];
+
+let textIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function typeEffect() {
+    const currentText = texts[textIndex];
+    const typingElement = document.getElementById("typingText");
+
+    if (!isDeleting) {
+        typingElement.textContent = currentText.substring(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === currentText.length) {
+            isDeleting = true;
+            setTimeout(typeEffect, 1500);
+            return;
+        }
+    } else {
+        typingElement.textContent = currentText.substring(0, charIndex - 1);
+        charIndex--;
+
+        if (charIndex === 0) {
+            isDeleting = false;
+            textIndex = (textIndex + 1) % texts.length;
+        }
+    }
+
+    setTimeout(typeEffect, isDeleting ? 50 : 100);
+}
+
+typeEffect();
+</script>
